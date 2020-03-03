@@ -8,6 +8,6 @@ export interface RecipeModel {
 export interface IngredientsModel {
   name: string;
   amount: number;
-  price: number;
+  price: number | null;
 }
 
